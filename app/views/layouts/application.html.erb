@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Radio950</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+  <body>
+  <div class="center">
+    <h2 class="dias_prog">TODOS OS DIAS</h2>
+    
+    <h3 class="programacao">Programação 1</h3>    
+    <ul class="ul_prog">
+      <li><strong>04:30h ás 06:30h</strong> <br> Waldir Santos </li>
+      <li><strong>06:30h ás 09:00h</strong> <br> José Henrique (Jornal da 950 1º Edição) </li>
+      <li><strong>09:00h ás 10:50h</strong> <br> Wilson Mattos (Peça e Ouça) </li>
+      <li><strong>10:50h ás 11:00h</strong> <br> Pr. Luis Reis (Palavra Central) </li>
+      <li><strong>11:00h ás 13:00h</strong> <br> José Henrique (Jornal da 950 2º Edição) </li>
+    </ul>
+    
+    <h3 class="programacao">Programação 2</h3>
+    <ul class="ul_prog">
+      <li><strong>13:00h ás 15:00h</strong> <br> Kleber Roberto </li>
+      <li><strong>15:00h ás 18:30h</strong> <br> Waldir Santos </li>
+      <li><strong>18:30h ás 19:00h</strong> <br> Jornal de Esportes </li>
+      <li><strong>20:00h ás 22:00h</strong> <br> Igreja Assembléia Nipo Brasileira </li>
+      <li><strong>22:00h ás 23:00h</strong> <br> Mundo Gospel (Glauko Rufino)</li>
+      <li><strong>23:00h ás 00:00h</strong> <br> A Voz Profética ( Pr. Gil Medeiros) </li>
+    </ul>
+    
+    <h2 class="dias_prog">SÁBADO</h2>
+    <ul class="ul_prog">
+      <li><strong>13:00h</strong> <br> Kleber Roberto & Vera Maximo </li>
+      <li><strong>15:00h</strong> <br> Pedrinho do Acordeon e Gema </li>
+      <li><strong>16:00h</strong> <br> Cantinho da Viola (Luiz Andrade) </li>
+    </ul>
+    
+    <h2 class="dias_prog">DOMINGO</h2>
+    <ul class="ul_prog">
+      <li><strong>04:30h</strong> <br> Waldir Santos </li>
+      <li><strong>06:30h</strong> <br> Jornal da 950 </li>
+      <li><strong>08:00h</strong> <br> Brasil Sertanejo (Claudinho & Marcelo Cowboy) </li>
+      <li><strong>11:00h</strong> <br> Maranatah (Sonia Tonin) </li>
+      <li><strong>12:00h</strong> <br> Ministerio de Louvor Manancial </li>
+      <li><strong>13:00h</strong> <br> Reprise Pedrinho do Acordeon & Gema </li>
+      <li><strong>14:00h</strong> <br> Tabernaculo da Fé </li>
+      <li><strong>15:00h</strong> <br> Futebol (Equipe Esportes ) </li>
+      <li><strong>18:00h</strong> <br> Flash Back (Marilia Moraes) </li>
+      <li><strong>19:00h</strong> <br> Missa Dominical (Santuario N.S. Aparecida) </li>
+      <li><strong>20:30h</strong> <br> Reprise Cantinho da Viola (Luiz Andarde) </li>
+    </ul>
+  </div>
+    
+<%= yield %>
+    
+    <footer>
+    </footer>
+
+  </body>
+</html>
